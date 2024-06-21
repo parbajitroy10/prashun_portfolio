@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashun - Embedded System Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Playwrite AU VIC", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 69);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(157, 225, 225);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(130, 233, 237);
+            height: 1.1px;
+            margin: 30px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 1.8rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(54, 19, 54);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(141, 72, 205);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(141, 72, 205);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 80px;
+            position: relative;
+            top: -50px;
+            left: -39px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 41px;
+            width: 204px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 13px;
+            color: gray;
+            width: 1000px;
+            font-size: 11px;
+        }
+
+        footer {
+            background-color: rgb(47, 15, 47);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 22px;
+            margin: 186px 105px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-right {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Prashun's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple"> Prashun Roy </span>
+                <div> and I am a passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="prashun.jpeg.jpeg" alt=" ">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="ese.png" alt="">
+                    <div class="vertical-title">
+                        Embedded System Engineer (28 Aug 2022 - Present)
+                        <div class="vertical-desc">
+                            • Collaboratively developing Industrial Robotic arms for Anwar Cement Factory and AI based
+                            automatic Fabric
+                            inspection mechine for Anwar textile using ROS, Solidworks, Blender, RViz, Gazebo. Designing
+                            digital twin of
+                            the robots using Soidworks and making their URDF(Unified Robotics Description Format),
+                            XMLs(various launch
+                            files), SDFs(Simulation Description Format) and DAE(Texture of robot) for further
+                            development.
+                            <br>
+                            • Collaboratively Developed truck location, fuel, doors, engine monitoring and camera
+                            surveillance system for
+                            Anwar Cement Factory.<br>
+                            • 3D design in Solidworks and printing with Creality Ender 3 v2 neo printer of Anwar
+                            Enterprise hardware
+                            enclosures according to the capability and custom circuits.<br>
+                            • Collaboratively developed a comprehensive many-to-many relational database system
+                            containing device
+                            details and firmware, integrated with a user-selectable generative circuit diagram and
+                            firmware builder
+                            tailored for AESL IoT applications.<br>
+                            • Developed firmware and designed hardware circuit for camera sensor(OV7670) with
+                            STM32F446RET6 chip
+                            using DCMI interface.<br>
+                            • Developed UART, I2C, SPI, ADC, communicating capable large bare metal(register level)
+                            firmware code base for
+                            future device driver development for the department and tested with various sensors.<br>
+                            • Designed for ESP32 CAM module with regulator and IR illuminator for ESP32 based IoT
+                            surveillance system and
+                            tested video footage in various mode with prototype to balance between image quality, frame
+                            rate and frame
+                            size.<br>
+                            • Developed firmware for OTA firmware update capability of ESP32 modules from MQTT server
+                            using custom
+                            flash partition and firmware to extract incoming information from server and integrate it
+                            with the core
+                            firmware of the project.<br>
+                            • Developed firmware for door security system using ESP32 DEV kit with 16x2 LCD display,
+                            RFID, Keypad.<br>
+                            • Conducted market analysis and business analysis on RFID based IoT project and conducted
+                            deep research on
+                            Ultra High Frequency RFID technology, conducted market research for IoT server build with 4
+                            Raspberry
+                            Compute Module.<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Prashun Roy Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            Copyright &#169; prashunsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Embedded System Engineer, Hardware Designer and Firmware Developer, Interested in Embedded AI'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
